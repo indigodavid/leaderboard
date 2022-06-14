@@ -6,6 +6,6 @@ const addLi = (text) => {
   li.innerHTML = text;
 
   leaderboard.appendChild(li);
-}
+};
 
 export default addLi;
