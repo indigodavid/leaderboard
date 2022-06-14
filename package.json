@@ -1,5 +1,5 @@
 {
-  "name": "webpack-first-project",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indigodavid/webpack-first-project.git"
+    "url": "git+https://github.com/indigodavid/leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/indigodavid/webpack-first-project/issues"
+    "url": "https://github.com/indigodavid/leaderboard/issues"
   },
-  "homepage": "https://github.com/indigodavid/webpack-first-project#readme",
+  "homepage": "https://github.com/indigodavid/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -37,6 +37,7 @@
     "webpack-dev-server": "^4.9.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
     "lodash": "^4.17.21"
   }
 }
