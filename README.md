@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Webpack Project
+# Leaderboard
 
-> In this project I built a simple yet powerful webpack boilerplate, which will be used as a starting point for other projects.
+> This project contains a Leaderboard with scores submitted by different players using an external Leaderboard API service.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Webpack
+- JavaScript
+- Leaderboard API
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ Modern web browser with Javascript enabled
 
 ### Install
 
-git clone https://github.com/indigodavid/webpack-first-project.git
+git clone https://github.com/indigodavid/leaderboard.git
 
 ### Usage
 
