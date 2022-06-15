@@ -2,8 +2,8 @@ const game = {
   name: '2022 FIFA World Cup Correct Predictions'
 }
 
-const createGame = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+const createGame = async (baseUrl) => {
+  const response = await fetch(baseUrl, {
     method: 'POST',
     body: JSON.stringify(game),
     headers: {
