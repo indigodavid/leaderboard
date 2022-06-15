@@ -1,6 +1,5 @@
-
 const addScore = async (baseUrl, gameId, userScore) => {
-  const urlAppend = gameId + '/scores/'
+  const urlAppend = `${gameId}/scores/`;
   const response = await fetch(baseUrl + urlAppend, {
     method: 'POST',
     body: JSON.stringify(userScore),
@@ -10,6 +9,6 @@ const addScore = async (baseUrl, gameId, userScore) => {
   });
   const serverMessage = await response.json();
   return serverMessage;
-}
+};
 
 export default addScore;
