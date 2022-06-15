@@ -3,6 +3,8 @@ import '@fortawesome/fontawesome-free/js/all.js';
 import './style.css';
 import addLi from './modules/add-li.js';
 
+const gameId = 'mJeCcp5MBcYWDNysNtF2';
+
 const leaderboardData = {
   result: [
     {
