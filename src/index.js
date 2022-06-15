@@ -1,28 +1,17 @@
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
 import './style.css';
-import addLi from './modules/add-li.js';
+import addScoreEventHandler from './modules/add-score-event.js';
+import refreshList from './modules/refresh-list.js';
 
-const gameId = 'mJeCcp5MBcYWDNysNtF2';
+const gameId = 'drIYWOVFCZVjBULanydp';
+const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const refreshButton = document.getElementById('refresh');
 
-const leaderboardData = {
-  result: [
-    {
-      user: 'John Doe',
-      score: 42,
-    },
-    {
-      user: 'Peter Parker',
-      score: 35,
-    },
-    {
-      user: 'Wonder Woman',
-      score: 50,
-    },
-  ],
-};
+refreshList(baseUrl, gameId);
 
-leaderboardData.result.forEach((element) => {
-  const text = `${element.user}: ${element.score}`;
-  addLi(text);
+addScoreEventHandler(baseUrl, gameId);
+
+refreshButton.addEventListener('click', () => {
+  refreshList(baseUrl, gameId);
 });
