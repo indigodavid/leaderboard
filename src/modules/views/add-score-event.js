@@ -1,6 +1,6 @@
-import addScore from './add-score.js';
+import addScore from '../add-score.js';
 import refreshList from './refresh-list.js';
-import UserScore from './user-score.js';
+import UserScore from '../models/user-score.js';
 
 const addScoreEventHandler = (baseUrl, gameId) => {
   const submit = document.getElementById('submit-score');

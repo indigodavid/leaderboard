@@ -1,5 +1,5 @@
 const game = {
-  name: '2022 FIFA World Cup Correct Predictions',
+  name: 'F1 2022 Driver Standings',
 };
 
 const createGame = async (baseUrl) => {
