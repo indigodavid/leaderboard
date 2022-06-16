@@ -1,4 +1,4 @@
-import refresh from './refresh.js';
+import refresh from '../refresh.js';
 import addLi from './add-li.js';
 
 const refreshList = (baseUrl, gameId) => {
