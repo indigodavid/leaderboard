@@ -8,7 +8,7 @@ const refreshList = (baseUrl, gameId) => {
   leaderboardData.then((value) => {
     if (value.result) {
       value.result.forEach((element) => {
-        const text = `${element.user}: ${element.score}`;
+        const text = `${element.user} <span>${element.score}</span>`;
         addLi(text);
       });
     }
