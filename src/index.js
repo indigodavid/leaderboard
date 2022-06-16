@@ -4,7 +4,7 @@ import './style.css';
 import addScoreEventHandler from './modules/views/add-score-event.js';
 import refreshList from './modules/views/refresh-list.js';
 
-const gameId = 'drIYWOVFCZVjBULanydp';
+const gameId = '58aPG1FaHL0SJ1fqrLny';
 const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 const refreshButton = document.getElementById('refresh');
 
